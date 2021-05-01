@@ -10,7 +10,24 @@
 </head>
 
 <body>
+    <div class="container">
+        <div class="filters">
+            <div class="allTab" onclick="filterData('all')">All</div>
+            <div class="menTab" onclick="filterData('men')">Men</div>
+            <div class="womenTab" onclick="filterData('women')">Women</div>
+            <div class="electronicsTab" onclick="filterData('electronics')">Electronics</div>
+        </div>
+        <div id="card-container">
+            <div class="card-section" id="content">
 
+            </div>
+        </div>
+
+        <div class="button-section">
+            <button class="primary-btn">Add new</button>
+            <button class="danger-btn">Delete old stock</button>
+        </div>
+    </div>
 </body>
 <script src="main.js"></script>
 

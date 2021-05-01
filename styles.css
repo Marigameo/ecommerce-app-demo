@@ -1,0 +1,43 @@
+.container {
+    margin-top: 6rem;
+}
+
+.filters,.card-section, .button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section {
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.allTab, .menTab, .womenTab, .electronicsTab {
+    margin: 1rem;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.card-section, .button-section {
+    margin-top: 1rem;
+}
+.primary-btn, .danger-btn {
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.primary-btn {
+    background-color: lightgreen;
+}
+
+.danger-btn {
+    background-color: pink;
+}
